@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Good Old Form</title>
+<style>
+div.itm	{
+	text-align:center;
+}
+</style>
+</head>
+
+<body>
+<form method="post" action="submit.php">
+	<div class="itm">
+		<h3>First Name:*</h3><br>
+		<input type="text" name="firstName">
+		<br><h3>Last Name:*</h3><br>
+		<input type="text" name="lastName">
+		<br><h3>Email Address:*</h3><br>
+		<input type="text" name="emailAddress">
+		<br><h3>Message/Questions:*</h3><br>
+		<textarea maxlength="2000" cols="20" rows="5"></textarea>
+	</div>
+</form>
+</body>
+</html>
